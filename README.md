@@ -56,7 +56,7 @@ manufacturing-process-analyzer
 ## Setup Instructions
 1. **Clone the Repository**: 
    ```
-   git clone https://github.com/yourusername/manufacturing-process-analyzer.git
+   git clone https://github.com/mmdmcy/manufacturing-process-analyzer.git
    ```
 2. **Navigate to the Project Directory**:
    ```
