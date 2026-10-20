@@ -18,7 +18,7 @@ public class DataController {
     public boolean saveMeasurement(Measurement measurement) {
         try {
             databaseService.executeUpdate(
-                "INSERT INTO measurements (value, timestamp) VALUES (?, ?)",
+                "INSERT INTO measurements (measurement_value, timestamp) VALUES (?, ?)",
                 measurement.getValue(),
                 measurement.getTimestamp());
             measurements.add(measurement);

@@ -23,7 +23,7 @@ public class DatabaseService {
             try (Statement stmt = connection.createStatement()) {
                 stmt.execute("CREATE TABLE IF NOT EXISTS measurements (" +
                         "id INT AUTO_INCREMENT PRIMARY KEY, " +
-                        "value DOUBLE NOT NULL, " +
+                        "measurement_value DOUBLE NOT NULL, " +
                         "timestamp TIMESTAMP NOT NULL)");
                 
                 stmt.execute("CREATE TABLE IF NOT EXISTS processes (" +
